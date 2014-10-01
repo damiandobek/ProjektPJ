@@ -7,6 +7,7 @@ public class Address {
 	private String zippCode;
 	private String houseNumber;
 	private String localNumber;
+	private int age;
 	
 	public String getCountry() {
 		return country;
@@ -43,6 +44,12 @@ public class Address {
 	}
 	public void setLocalNumber(String localNumber) {
 		this.localNumber = localNumber;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
 	}
 	
 	
