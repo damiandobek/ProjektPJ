@@ -1,5 +1,5 @@
-
-public class Address {
+package domain;
+public class Address extends Entity{
 
 	private String country;
 	private String city;
