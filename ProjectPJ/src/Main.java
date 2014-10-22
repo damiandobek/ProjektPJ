@@ -21,12 +21,12 @@ public class Main {
 		
 		//i tak dalej...
 		
-		System.out.println(person.getUser());
-		System.out.println(person.getFirstName());
-		System.out.println(person.getEmail());
-		System.out.println(person.getSex());
-		System.out.println(user.getLogin());
-		System.out.println(user.getPassword());
+		System.out.println("Nazwa uzytkownika: " + person.getUser());
+		System.out.println("Imiê: " + person.getFirstName());
+		System.out.println("Adres e-mail: " + person.getEmail());
+		System.out.println("P³eæ: " + person.getSex());
+		System.out.println("Login" + user.getLogin());
+		System.out.println("Haslo: " + user.getPassword());
 		
 	}
 
